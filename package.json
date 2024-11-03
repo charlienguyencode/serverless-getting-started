@@ -1,0 +1,28 @@
+{
+  "name": "serverless-getting-started",
+  "version": "1.0.0",
+  "description": "A getting started serverless project with simple api handler and deployed to AWS lambda and API Gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlienguyencode/serverless-getting-started.git"
+  },
+  "author": "Charlie Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlienguyencode/serverless-getting-started/issues"
+  },
+  "homepage": "https://github.com/charlienguyencode/serverless-getting-started#readme",
+  "dependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+
+  }
+}
