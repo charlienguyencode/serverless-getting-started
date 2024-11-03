@@ -4,7 +4,7 @@
   "description": "A getting started serverless project with simple api handler and deployed to AWS lambda and API Gateway",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "jest test"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/charlienguyencode/serverless-getting-started#readme",
   "dependencies": {
+    "@types/aws-lambda": "^8.10.145",
     "@types/jest": "^29.5.13",
     "@types/node": "^22.7.4",
     "jest": "^29.7.0",
